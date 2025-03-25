@@ -1,0 +1,23 @@
+You are tasked with identifying data transformation lineage the Code File given above  and output a Final Lineage Summary in a table format as described below. Follow the steps provided.
+
+Output the Final Lineage Summary in a Table Format:
+   - Output a table with the following columns:
+     - Source: write the complete json path of the source element for a data transformation
+     - Target: the destination where the value is assigned in the Code File. Example: $.identity_profile.individual_information.first_name 
+     - Transformation: 
+       - A concise yet descriptive explanation of how the source is transformed and assigned to the target. 
+       - Mention all relevant methods and functions, especially if part of a larger method. 
+       - When mentioning a method name, don't include the whole method call and don't add additional quotations around the method name. For example, getString should be used in the description instead of something like app.getString("$.application.individuals.addresses.address.line1", appIndex, addressIndexStr). 
+
+Format the table with a csv format like this:
+   ```
+     Source, Target, Transformation
+     ```
+   and end with the output with a [EOS] tag.  
+   
+     - Examples:
+     Source, Target, Transformation
+     GO2.Unify.application.individuals.addresses.address.line1, contact_profile.postal_addresses.line_1, Retrieved using getString within getContactAddressLine1, then set using setIfValueNotNull within setContactProfile
+     GO2.Unify.application.country_numeric_code, account.type.market_code, Retrieved using getString, used as key in c360MarketCode map to get the market code, then set using setIfValueNotNull within setAccount
+     ....
+     [EOS]

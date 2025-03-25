@@ -1,32 +1,32 @@
-Source,Target,Transformation
-userId,user_profile.userId,"In fetchUserId, userId retrieved from inputData if exists, else generated as ""USER-"" + System.nanoTime(), then set in processUserProfile"
-userName,user_profile.name,"Retrieved from inputData using setIfExists in processUserProfile, then set into userProfile"
-email,user_profile.email,"Retrieved from inputData using setIfExists in processUserProfile, then set into userProfile"
-address,user_profile.address,"Retrieved from inputData using setIfExists in processUserProfile, then set into userProfile"
-contacts[*].type,user_profile.contacts[*].contact.type,"For each contact in contacts from inputData, 'type' retrieved using setIfExists in processContacts, then set into contactNode, added to userProfile.contacts array"
-contacts[*].number,user_profile.contacts[*].contact.number,"For each contact in contacts from inputData, 'number' retrieved using setIfExists in processContacts, then set into contactNode, added to userProfile.contacts array"
-preferences.language,user_profile.preferences.language,"Retrieved from inputData using setIfExists in processPreferences, then set into preferences, added to userProfile"
-preferences.timezone,user_profile.preferences.timezone,"Retrieved from inputData using setIfExists in processPreferences, then set into preferences, added to userProfile"
-preferences.currency,user_profile.preferences.currency,"Retrieved from inputData using setIfExists in processPreferences, then set into preferences, added to userProfile"
-billing.cardType,user_profile.billingDetails.cardType,"Retrieved from inputData using setIfExists in processBillingDetails, then set into billingDetails, added to userProfile"
-billing.cardNumber,user_profile.billingDetails.cardNumber,"Retrieved from inputData using setIfExists in processBillingDetails, then set into billingDetails, added to userProfile"
-billing.expiryDate,user_profile.billingDetails.expiryDate,"Retrieved from inputData using setIfExists in processBillingDetails, then set into billingDetails, added to userProfile"
-billing.billingAddress,user_profile.billingDetails.billingAddress,"Retrieved from inputData using setIfExists in processBillingDetails, then set into billingDetails, added to userProfile"
-subscription.plan,user_profile.subscriptionInfo.plan,"Retrieved from inputData using setIfExists in processSubscriptionInfo, then set into subscriptionInfo, added to userProfile"
-subscription.subscriptionStart,user_profile.subscriptionInfo.start,"Retrieved from inputData using setIfExists in processSubscriptionInfo, then set into subscriptionInfo, added to userProfile"
-subscription.subscriptionEnd,user_profile.subscriptionInfo.end,"Retrieved from inputData using setIfExists in processSubscriptionInfo, then set into subscriptionInfo, added to userProfile"
-loyaltyTier,user_profile.customAttributes.loyaltyTier,"Retrieved from inputData using setIfExists in processCustomAttributes, then set into customAttributes, added to userProfile"
-accountStatus,user_profile.customAttributes.accountStatus,"Retrieved from inputData using setIfExists in processCustomAttributes, then set into customAttributes, added to userProfile"
-preferencesUpdatedAt,user_profile.customAttributes.preferencesUpdatedAt,"Retrieved from inputData using setIfExists in processCustomAttributes, then set into customAttributes, added to userProfile"
-notificationsEnabled,settings.notificationsEnabled,"Retrieved from inputData using setIfExists in processUserSettings, then set into settings"
-theme,settings.theme,"Retrieved from inputData using setIfExists in processUserSettings, then set into settings"
-darkMode,settings.darkMode,"Retrieved from inputData using setIfExists in processUserSettings, then set into settings"
-transactions[*].transactionId,transactions[*].transactionId,"For each transaction in transactions from inputData, 'transactionId' retrieved using setIfExists in processTransactionHistory, then set into transactionNode, added to transactions array"
-transactions[*].amount,transactions[*].amount,"For each transaction in transactions from inputData, 'amount' retrieved using setIfExists in processTransactionHistory, then set into transactionNode, added to transactions array"
-transactions[*].date,transactions[*].date,"For each transaction in transactions from inputData, 'date' retrieved using setIfExists in processTransactionHistory, then set into transactionNode, added to transactions array"
-loginCount,analytics.loginCount,"Retrieved from inputData using setIfExists in processAnalyticsData, then set into analytics"
-lastLogin,analytics.lastLogin,"Retrieved from inputData using setIfExists in processAnalyticsData, then set into analytics"
-totalPurchases,analytics.totalPurchases,"Retrieved from inputData using setIfExists in processAnalyticsData, then set into analytics"
-timeSpent,analytics.timeSpent,"Retrieved from inputData using setIfExists in processAnalyticsData, then set into analytics"
-sourceSystem,metadata.sourceSystem,"Retrieved from inputData using setIfExists in processMetadata, then set into metadata"
-
+Source, Target, Transformation
+$.userId, $.user_profile.userId, Retrieved using fetchUserId and assigned directly.
+$.user_profile.name, $.user_profile.userName, Retrieved using setIfExists within processUserProfile.
+$.user_profile.email, $.user_profile.email, Retrieved using setIfExists within processUserProfile.
+$.user_profile.address, $.user_profile.address, Retrieved using setIfExists within processUserProfile.
+$.contacts[*].type, $.user_profile.contacts[*].type, Retrieved using getContacts, iterated in processContacts, and assigned using setIfExists.
+$.contacts[*].number, $.user_profile.contacts[*].number, Retrieved using getContacts, iterated in processContacts, and assigned using setIfExists.
+$.preferences.language, $.user_profile.preferences.language, Retrieved using setIfExists within processPreferences.
+$.preferences.timezone, $.user_profile.preferences.timezone, Retrieved using setIfExists within processPreferences.
+$.preferences.currency, $.user_profile.preferences.currency, Retrieved using setIfExists within processPreferences.
+$.billing.cardType, $.user_profile.billingDetails.cardType, Retrieved using setIfExists within processBillingDetails.
+$.billing.cardNumber, $.user_profile.billingDetails.cardNumber, Retrieved using setIfExists within processBillingDetails.
+$.billing.expiryDate, $.user_profile.billingDetails.expiryDate, Retrieved using setIfExists within processBillingDetails.
+$.billing.billingAddress, $.user_profile.billingDetails.billingAddress, Retrieved using setIfExists within processBillingDetails.
+$.subscription.plan, $.user_profile.subscriptionInfo.plan, Retrieved using setIfExists within processSubscriptionInfo.
+$.subscription.start, $.user_profile.subscriptionInfo.subscriptionStart, Retrieved using setIfExists within processSubscriptionInfo.
+$.subscription.end, $.user_profile.subscriptionInfo.subscriptionEnd, Retrieved using setIfExists within processSubscriptionInfo.
+$.customAttributes.loyaltyTier, $.user_profile.customAttributes.loyaltyTier, Retrieved using setIfExists within processCustomAttributes.
+$.customAttributes.accountStatus, $.user_profile.customAttributes.accountStatus, Retrieved using setIfExists within processCustomAttributes.
+$.customAttributes.preferencesUpdatedAt, $.user_profile.customAttributes.preferencesUpdatedAt, Retrieved using setIfExists within processCustomAttributes.
+$.settings.notificationsEnabled, $.settings.notificationsEnabled, Retrieved using setIfExists within processUserSettings.
+$.settings.theme, $.settings.theme, Retrieved using setIfExists within processUserSettings.
+$.settings.darkMode, $.settings.darkMode, Retrieved using setIfExists within processUserSettings.
+$.transactions[*].transactionId, $.transactions[*].transactionId, Retrieved using getTransactionHistory, iterated in processTransactionHistory, and assigned using setIfExists.
+$.transactions[*].amount, $.transactions[*].amount, Retrieved using getTransactionHistory, iterated in processTransactionHistory, and assigned using setIfExists.
+$.transactions[*].date, $.transactions[*].date, Retrieved using getTransactionHistory, iterated in processTransactionHistory, and assigned using setIfExists.
+$.analytics.loginCount, $.analytics.loginCount, Retrieved using setIfExists within processAnalyticsData.
+$.analytics.lastLogin, $.analytics.lastLogin, Retrieved using setIfExists within processAnalyticsData.
+$.analytics.totalPurchases, $.analytics.totalPurchases, Retrieved using setIfExists within processAnalyticsData.
+$.analytics.timeSpent, $.analytics.timeSpent, Retrieved using setIfExists within processAnalyticsData.
+$.metadata.sourceSystem, $.metadata.sourceSystem, Retrieved using setIfExists within processMetadata.
+[EOS]
