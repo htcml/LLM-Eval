@@ -1,0 +1,2 @@
+6. Generate output in a table with following three columns, and only generate the table and nothing else. Just the Table:
+| Source | Transformation | Target |
