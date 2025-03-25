@@ -14,10 +14,3 @@ Format the table with a csv format like this:
      Source, Target, Transformation
      ```
    and end with the output with a [EOS] tag.  
-   
-     - Examples:
-     Source, Target, Transformation
-     GO2.Unify.application.individuals.addresses.address.line1, contact_profile.postal_addresses.line_1, Retrieved using getString within getContactAddressLine1, then set using setIfValueNotNull within setContactProfile
-     GO2.Unify.application.country_numeric_code, account.type.market_code, Retrieved using getString, used as key in c360MarketCode map to get the market code, then set using setIfValueNotNull within setAccount
-     ....
-     [EOS]
