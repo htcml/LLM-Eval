@@ -1,0 +1,153 @@
+Of course! Here's a **structured evaluation rubric** including your requests:
+
+---
+
+# Voice Assistant Evaluation Rubric (Single-Turn Interaction Focus)
+
+## Overview
+This rubric provides a standardized framework for evaluating the quality of voice assistant outputs in single-turn interactions. It focuses on the voice assistant's linguistic accuracy, speech naturalness, and interactional appropriateness. These metrics help ensure that the system delivers a smooth, human-like, and reliable experience to users.
+
+## Problem Statement
+Voice assistants must perform accurately and naturally across diverse scenarios, languages, and user speech patterns. In single-turn interactions, it is critical to ensure that each response is correct, fluent, appropriately voiced, and properly aligned with user expectations. This rubric outlines evaluation metrics to systematically measure and improve single-turn performance.
+
+---
+
+# Evaluation Metrics
+
+Each metric is rated individually. Suggested scoring per metric:
+- **5 (Excellent)** — No noticeable issues.
+- **4 (Good)** — Minor, non-disruptive issues.
+- **3 (Fair)** — Noticeable issues but still acceptable.
+- **2 (Poor)** — Major issues that reduce quality.
+- **1 (Unacceptable)** — Severe issues that make the interaction fail.
+
+---
+
+## 1. Correctness
+- **Definition:** Whether the assistant’s response is factually accurate and answers the user’s query appropriately.
+- **Example:**  
+  - **User:** "What's the capital of France?"  
+  - **Expected:** "The capital of France is Paris."
+- **Scoring Notes:** Penalize hallucinations, incomplete answers, or factually wrong information.
+
+---
+
+## 2. Language Match
+- **Definition:** Whether the assistant’s response matches the language indicated by the input.
+- **Example:**  
+  - **User (in Spanish):** "¿Qué hora es?"  
+  - **Expected:** The assistant should respond in Spanish, not in English or any other language.
+- **Scoring Notes:** Responses in the wrong language or unnecessary code-switching should be penalized.
+
+---
+
+## 3. Conciseness
+- **Definition:** Whether the response is appropriately brief — not overly verbose and not too short to be informative.
+- **Example:**  
+  - **User:** "Define photosynthesis."  
+  - **Good Response:** "Photosynthesis is how plants use sunlight to make food."  
+  - **Too Verbose:** A full textbook chapter explanation.
+- **Scoring Notes:** Balance brevity with completeness.
+
+---
+
+## 4. Fluency
+- **Definition:** Whether the assistant’s spoken language is grammatically correct, coherent, and smooth without awkward pauses or hesitations.
+- **Example:**  
+  - **Poor Fluency:** "The, uh, process is called… photosynthesis, um, where plants make, uh, food."
+- **Scoring Notes:** Pay attention to grammatical structure, filler words, and logical flow.
+
+---
+
+## 5. Accent Appropriateness
+- **Definition:** Whether the assistant’s voice accent is suitable for the target language and understandable.
+- **Example:**  
+  - Speaking American English for an American English query, instead of heavily accented speech that could confuse the listener.
+- **Scoring Notes:** Strong, unexpected accents that reduce comprehension should be penalized.
+
+---
+
+## 6. Comprehension
+- **Definition:** Whether the assistant correctly interprets the user's spoken input, even if phrased with errors, disfluencies, or hesitation.
+- **Example:**  
+  - **User:** "Uh, what’s the, like, weather?"  
+  - **Expected:** Correctly understanding the user wants the weather forecast.
+- **Scoring Notes:** Misinterpretations reduce the score.
+
+---
+
+## 7. Latency
+- **Definition:** The time delay between the end of the user's speech and the start of the assistant’s response.
+- **Scoring Notes:** Shorter, natural-feeling response times score higher. Long or awkward pauses score lower.
+
+---
+
+## 8. Prosody and Expressiveness
+- **Definition:** Whether the assistant uses natural variations in pitch, rhythm, emphasis, and intonation appropriate to the response.
+- **Example:**  
+  - **Positive Prosody:** Sounding cheerful when saying, "Congratulations!"
+- **Scoring Notes:** Flat, robotic delivery or inappropriate emotions reduce the score.
+
+---
+
+## 9. Voice Naturalness
+- **Definition:** How human-like and pleasant the synthetic voice sounds.
+- **Scoring Notes:** Robotic or mechanical-sounding voices lose points even if the words are correct.
+
+---
+
+## 10. Error Recovery Ability
+- **Definition:** How gracefully the assistant handles unclear or misheard input.
+- **Example:**  
+  - Assistant says: "I'm sorry, did you mean the weather forecast or a weather warning?"
+- **Scoring Notes:** Although this is less emphasized in single-turn, still relevant if input is ambiguous within one turn.
+
+---
+
+## 11. Politeness and Tone Appropriateness
+- **Definition:** Whether the assistant maintains a polite, context-sensitive tone.
+- **Example:**  
+  - Using empathetic language when the user sounds distressed.
+- **Scoring Notes:** Rudeness or overly casual phrasing when inappropriate should be penalized.
+
+---
+
+## 12. Volume Appropriateness
+- **Definition:** Whether the response volume matches expected norms (e.g., not too loud or too quiet).
+- **Scoring Notes:** Overly soft or blaring outputs should be penalized.
+
+---
+
+## 13. Personalization (Optional)
+- **Definition:** Whether the assistant shows adaptation to known user preferences (speech rate, formality, etc.).
+- **Scoring Notes:** Bonus points for personalized details, if system is capable.
+
+---
+
+## 14. Background Noise Robustness
+- **Definition:** Whether the assistant accurately interprets user input in the presence of background noise.
+- **Example:**  
+  - User speaking with street noise or music in the background, and the assistant still understanding the question correctly.
+- **Scoring Notes:** Misunderstanding caused by noise should be penalized.
+
+---
+
+## 15. Pronunciation Accuracy
+- **Definition:** Whether the assistant pronounces standard and unusual words correctly.
+- **Example:**  
+  - Correct pronunciation of "Gujarat," "Kierkegaard," or "São Paulo."
+- **Scoring Notes:** Mispronunciations, especially of names and technical terms, lower the score.
+
+---
+
+# Usage Notes
+- **Focus on Single-Turn Only:**  
+  Multi-turn context management (such as memory of previous interactions) is **out of scope** for this rubric.
+  
+- **Holistic Judgment:**  
+  While each metric is scored individually, evaluators may also leave a short free-text comment if a particular aspect strongly impacts the overall impression.
+
+---
+
+Would you also like me to create a **simple Excel/Google Sheet template** for this rubric so you can directly plug it into your evaluation process? 📄✨  
+It would include drop-downs for 1–5 scores and columns for comments!
