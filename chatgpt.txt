@@ -1,0 +1,50 @@
+You're off to a really strong start! Your current metrics cover important basics. Here are **additional metrics** you can use to build a more comprehensive evaluation framework for a voice assistant, especially one like ChatGPT Advanced Voice Mode:
+
+---
+
+### 1. **Comprehension**
+- **Definition:** Assess whether the assistant correctly understood the user's intent and nuance, even if phrased unusually or with errors.
+- **Example:** If the user says, "Uh, what’s the, like, weather?" the assistant should infer the meaning and respond correctly.
+
+### 2. **Latency**
+- **Definition:** Measure the time it takes from the end of the user's speech to the beginning of the assistant’s response.
+- **Notes:** Lower latency generally feels more natural and conversational.
+
+### 3. **Prosody and Expressiveness**
+- **Definition:** Assess whether the assistant’s voice has natural rhythm, pitch, emphasis, and emotion appropriate to the context.
+- **Example:** Excitement when saying "Congratulations!" vs a calm tone when giving directions.
+
+### 4. **Dialog Coherence**
+- **Definition:** Evaluate whether the assistant’s responses logically follow the previous exchanges and maintain context over multiple turns.
+- **Notes:** Especially important in multi-turn conversations.
+
+### 5. **Voice Naturalness**
+- **Definition:** Judge how natural (human-like) the synthetic voice sounds.
+- **Notes:** Even if fluent and correct, an unnatural voice can break immersion.
+
+### 6. **Error Recovery Ability**
+- **Definition:** Assess how well the assistant handles misunderstandings, interruptions, or ambiguous input.
+- **Example:** "I'm sorry, did you mean...?" or graceful re-prompts.
+
+### 7. **Politeness and Tone Appropriateness**
+- **Definition:** Assess whether the assistant uses a polite, appropriate tone based on the situation or user emotion.
+- **Example:** Being empathetic if the user sounds upset.
+
+### 8. **Volume Appropriateness**
+- **Definition:** Measure if the assistant's speaking volume is suitable for the environment or matches the user’s speaking volume.
+- **Example:** Speaking more softly at night or louder in noisy environments.
+
+### 9. **Personalization**
+- **Definition:** Evaluate whether the assistant adapts to known user preferences (like formality, speed, or frequent topics).
+
+### 10. **Background Noise Robustness**
+- **Definition:** Assess how well the assistant understands and responds accurately even when the user's voice input includes background noise.
+
+### 11. **Pronunciation Accuracy**
+- **Definition:** Judge whether proper nouns, rare words, foreign names, etc., are pronounced correctly.
+- **Example:** Correct pronunciation of "Gujarat," "Kierkegaard," or "São Paulo."
+
+---
+
+Would you also like me to help organize all these metrics into a **structured evaluation rubric** (e.g., scoring guidelines or a checklist format)?  
+It would make it easier if you're planning to implement it in QA or user studies. 📋

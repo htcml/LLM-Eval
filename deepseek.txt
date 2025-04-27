@@ -1,0 +1,39 @@
+
+Here are additional evaluation metrics you can consider for your voice assistant system, categorized for better organization:  
+
+### **1. Response Quality & Relevance**  
+- **Relevance**: Does the response directly address the user’s query or intent?  
+- **Completeness**: Does the response fully answer the question without missing key details?  
+- **Contextual Awareness**: Does the assistant maintain context across multi-turn conversations?  
+- **Personalization**: Does the response adapt to known user preferences or history?  
+- **Avoidance of Harmful Content**: Does the response avoid misinformation, bias, or offensive language?  
+
+### **2. Voice & Speech Quality**  
+- **Pronunciation Accuracy**: Are words pronounced correctly in the target language?  
+- **Speech Rate**: Is the speaking speed too fast or too slow for natural comprehension?  
+- **Intonation & Prosody**: Does the voice sound natural with appropriate pitch and rhythm?  
+- **Voice Clarity**: Is the audio free from distortions, artifacts, or robotic tones?  
+- **Emotional Tone**: Does the voice match the intended emotion (e.g., friendly, professional, empathetic)?  
+
+### **3. Latency & Performance**  
+- **Response Time**: How quickly does the assistant generate and deliver a response?  
+- **Streaming Latency** (for real-time interactions): Is there a noticeable delay between user speech and assistant response?  
+- **Stability**: Does the system handle long conversations without degradation in performance?  
+
+### **4. Interaction & Usability**  
+- **Error Recovery**: How well does the assistant handle misunderstandings or ask for clarification?  
+- **Turn-Taking Efficiency**: Does the assistant interrupt appropriately or wait for natural pauses?  
+- **Multi-Modal Support** (if applicable): Does it integrate well with text, touch, or visual feedback?  
+- **Barge-In Support**: Can the user interrupt the assistant mid-response naturally?  
+
+### **5. Multilingual & Cross-Cultural Competence**  
+- **Code-Switching Ability**: Can it handle mixed-language queries effectively?  
+- **Cultural Sensitivity**: Are responses adapted to regional norms and expectations?  
+- **Dialect Adaptation**: Can it adjust to regional dialects within the same language?  
+
+### **6. User Engagement & Satisfaction**  
+- **User Retention**: Do users return to the assistant frequently?  
+- **Task Success Rate**: How often does the assistant successfully complete user requests?  
+- **Subjective Feedback**: User ratings on likability, usefulness, and naturalness.  
+
+Would you like any of these refined further for a specific use case?

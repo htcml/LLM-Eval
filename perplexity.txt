@@ -1,0 +1,73 @@
+Here are additional evaluation metrics for voice assistant systems, informed by industry best practices and research:
+
+### Content Quality Metrics
+**Appropriateness**  
+Assess if responses align with context and user intent without overstepping boundaries[1]. Example: Avoiding jokes during serious requests.
+
+**Contextual Understanding**  
+Measure ability to maintain conversation context across multi-turn dialogues[3]. Example: Correctly referencing prior mentions in follow-up questions.
+
+**Ethical Compliance**  
+Evaluate adherence to ethical guidelines and avoidance of harmful content[1]. Example: Filtering biased or discriminatory responses.
+
+### User Interaction Metrics
+**Task Success Rate**  
+Track percentage of user goals fully achieved (e.g., playing correct song, providing accurate weather)[5]. Combines action correctness and completion[4].
+
+**Error Recovery Capability**  
+Test ability to detect/correct misunderstandings through clarification requests[4]. Example: "Did you mean 8 AM or 8 PM?"
+
+**Multi-Lingual Code-Switching**  
+Assess handling of mixed-language inputs common in bilingual regions[3]. Example: Seamlessly switching between English and Spanish mid-conversation.
+
+### Voice Characteristics
+**Prosody Naturalness**  
+Evaluate speech rhythm, pitch variation, and emphasis patterns using MOS (Mean Opinion Score) testing[5].
+
+**Emotional Tone Matching**  
+Measure ability to adjust vocal emotion to context (e.g., empathetic tone for customer complaints)[5].
+
+**Pronunciation Accuracy**  
+Grade articulation of uncommon words/names using phonetic validation[3]. Different from accent as it focuses on individual word correctness.
+
+### System Performance Metrics
+**End-to-End Latency**  
+Measure time from user speech completion to assistant response playback[4]. Ideal: <1.5 seconds for natural flow[5].
+
+**Barge-In Recognition**  
+Test interruption handling during long responses while maintaining context[3].
+
+### Specialized Capabilities
+**Personalization Recall**  
+Evaluate memory of user preferences across sessions (e.g., dietary restrictions, music tastes)[1].
+
+**Multimodal Coordination**  
+Assess synchronization with visual interfaces when applicable (e.g., showing maps while giving directions)[3].
+
+**Privacy Compliance**  
+Verify automatic deletion of transient data not explicitly saved by users[1].
+
+Industry benchmarks show top systems achieve 92%+ task success rates with <800ms latency for common requests[5][4]. Regular evaluation should combine automated testing (using tools like Dynabench) and human ratings for nuanced aspects like emotional tone[3][1].
+
+Citations:
+[1] https://toloka.ai/blog/calculating-evaluation-metrics-for-a-voice-assistant/
+[2] https://poly.ai/blog/8-metrics-you-must-know-to-evaluate-the-impact-of-call-center-voice-ai/
+[3] https://www.willowtreeapps.com/craft/how-to-evaluate-voice-assistant-pipelines
+[4] https://staffingsolutions.io/virtual-assistant-performance-metrics-and-evaluation/
+[5] https://www.verloop.io/blog/measure-voice-ai/
+[6] https://gigaom.com/report/key-criteria-for-evaluating-intelligent-virtual-assistants/
+[7] https://www.reddit.com/r/ChatGPT/comments/1fsna89/advanced_voice_mode_is_amazing/
+[8] https://waywithwords.net/resource/speech-recognition-systems-performance/
+[9] https://pmc.ncbi.nlm.nih.gov/articles/PMC9063617/
+[10] https://community.openai.com/t/bring-back-the-original-voice-mode-the-advanced-voice-mode-is-a-step-backward/1088820
+[11] https://www.gnani.ai/resources/blogs/10-key-metrics-you-need-to-know-for-measuring-voice-ai-success/
+[12] https://www.aimspress.com/article/doi/10.3934/medsci.2022028
+[13] https://help.openai.com/en/articles/9617425-advanced-voice-mode-faq
+[14] https://www.conversationdesigninstitute.com/blog/important-conversation-design-metrics-for-your-chatbot-or-voice-assistant
+[15] https://www.linkedin.com/advice/0/youre-testing-voice-assistant-how-can-you-sure-qqv5f
+[16] https://www.youtube.com/watch?v=dkvy1U-ftho
+[17] https://www.atomicwork.com/blog/ai-assistant-metrics
+[18] https://www.youtube.com/watch?v=yJYU8f1BNDU
+
+---
+Answer from Perplexity: pplx.ai/share
