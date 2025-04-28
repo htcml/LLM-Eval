@@ -1,0 +1,41 @@
+Voice Evaluation
+
+
+Target Multimodal Models which can handle voice input and output. Only focus on voice part of this model. RAG application isn't considered as this part can be evaluated by LLM evaluation metrics. Also only focus on single turn interaction. Not multi-turn interaction
+Correctness:
+Measures the potential presence of factual errors or inconsistencies in the model's response. Correctness is a good way to uncovering open-domain halluciations
+Instruction Adherence:
+Measures whether the model is adhering to its system or prompt instructions.
+Uncertainty:
+A measure of the model's own confusion in its output. Higher scores indicate higher uncertainty.
+Completeness:
+Measures how thoroughly your model's response covered the relevant information available in the context provided.
+Context Adherence:
+Measures whether the LLM's response is supported by (or baked in) the context provided.
+Fluency:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Fraudulence:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Fraudulence:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Fraudulence:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Fraudulence:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Fraudulence:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Fraudulence:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Fraudulence:
+Detect suspicious patterns such as unnatural speech, known scam phrases, or voice spoofing techniques. 
+Tone:
+Classifies the sentiment of the user's voice input into one of joy, love, fear, surprise, sadness, anger, annoyance, confusion or neutral.
+Sexism:
+Measures how 'sexist' a user's voice input might be perceived ranging in the values of 0-1 (1 being more sexist).
+Toxicity:
+Measures the presence and severity of harmful, offensive, or abusive language.
+Input PII: 
+Tracks the presence of personal identifiable information in the audio input.
+Output PII: 
+Tracks the presence of personal identifiable information in the model's output.
+
