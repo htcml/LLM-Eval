@@ -1,0 +1,100 @@
+hypothesis testing type 1 type 2 errors alpha beta power effect size sample size estimation
+
+What you're solving for 
+Explaining the concepts of Type I and Type II errors, alpha, beta, power, effect size, and sample size estimation in hypothesis testing. 
+What's given in the problem 
+
+• Definitions and relationships between key statistical concepts. 
+
+Helpful information 
+
+• Hypothesis testing involves comparing a null hypothesis $H_0$) to an alternative hypothesis $H_1$). 
+• Type I and Type II errors are potential mistakes in this process. 
+• Power analysis helps determine the necessary sample size for a study. 
+
+How to solve 
+Define each term and explain their relationships in the context of hypothesis testing. 
+
+1. Step 1 Define Type I and Type II errors 
+	• Type I error (false positive): Rejecting $H_0$ when it is true. [1]  
+		• The probability of a Type I error is denoted by $\alpha$. [2, 3]  
+
+	• Type II error (false negative): Failing to reject $H_0$ when it is false. 
+		• The probability of a Type II error is denoted by $\beta$. [2, 3]  
+
+2. Step 2 Define alpha $\alpha$) 
+	• $\alpha$ is the significance level. 
+		• It is the probability of making a Type I error. [2, 4]  
+		• Common values for $\alpha$ are $0.05$ or $0.01$. 
+
+3. Step 3 Define beta $\beta$) 
+	• $\beta$ is the probability of making a Type II error. [2, 4, 5]  
+
+4. Step 4 Define power 
+	• Power is the probability of correctly rejecting a false $H_0$. [5]  
+		• Power $= 1 - \beta$. 
+		• A power of $0.8$ or higher is generally desired. 
+
+5. Step 5 Define effect size 
+	• Effect size measures the strength of an effect or relationship. 
+		• It is independent of sample size. 
+		• Larger effect sizes are easier to detect. 
+
+6. Step 6 Define sample size estimation 
+	• Sample size estimation determines the number of participants needed for a study. 
+		• It depends on $\alpha$, $\beta$, effect size, and variability. 
+		• Larger sample sizes increase power and reduce the risk of Type II errors. 
+
+7. Step 7 Explain the relationships 
+	• Decreasing $\alpha$ reduces the risk of Type I error but increases the risk of Type II error (decreases power). 
+	• Increasing sample size increases power and reduces the risk of Type II error. 
+	• Larger effect sizes lead to higher power. 
+
+Solution 
+Type I error is rejecting a true null hypothesis, Type II error is failing to reject a false null hypothesis, alpha is the probability of Type I error, beta is the probability of Type II error, power is $1 - \beta$, effect size measures the strength of an effect, and sample size estimation determines the number of participants needed for a study. [1]  
+
+Generative AI is experimental.
+
+[1] https://pmc.ncbi.nlm.nih.gov/articles/PMC8441096/[2] https://www.scribbr.com/statistics/type-i-and-type-ii-errors/[3] https://www.bmj.com/content/349/bmj.g4287/rr[4] https://www.statisticsteacher.org/2017/09/15/what-is-power/[5] https://pmc.ncbi.nlm.nih.gov/articles/PMC7745163/
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7745163/#:~:text=The%20most%20common%20reason%20for,as%2080%25)%20(17).
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8441096/#:~:text=field%20%5B12%5D.-,Power%2C%20alpha%2C%20type%20I%20error%2C%20and%20type%20II%20error,the%20alternative%20hypothesis%20is%20true.
+
+https://www.scribbr.com/statistics/type-i-and-type-ii-errors/#:~:text=Published%20on%20January%2018%2C%202021,planning%20in%20your%20study%20design.
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2996198/#:~:text=%CE%B1%2C%CE%B2%2CAND%20POWER,the%20inference%20will%20be%20incorrect.
+
+https://www.statisticsteacher.org/2017/09/15/what-is-power/#:~:text=Simply%20put%2C%20power%20is%20the,the%20effect%20of%20the%20variable
+
+https://www.ncbi.nlm.nih.gov/books/NBK557530/#:~:text=If%20a%20p%2Dvalue%20is,type%20I%20error%20to%20occur.&text=The%20power%20of%20a%20statistical,groups%20differ%20based%20on%20treatment.
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3409926/#:~:text=The%20alpha%20level%20used%20in,0.05%20for%20similar%20outcome%20variable.
+
+https://rpsychologist.com/d3/nhst/
+
+https://amplitude.com/explore/experiment/type-1-and-type-2-errors-explained
+
+https://meera.seas.umich.edu/power-analysis-statistical-significance-effect-size.html#:~:text=Statistical%20tests%20look%20for%20evidence,difference%20when%20there%20is%20one.
+
+https://www.andrews.edu/~calkins/math/edrm611/edrm11.htm
+
+https://en.wikipedia.org/wiki/Type_I_and_type_II_errors#:~:text=The%20second%20kind%20of%20error,corresponds%20to%20acquitting%20a%20criminal.
+
+https://psyteachr.github.io/analysis-v2/apes---alpha-power-effect-sizes-sample-size.html
+
+https://www.investopedia.com/terms/t/type-ii-error.asp#:~:text=is%20actually%20false.-,What%20Is%20a%20Type%20II%20Error?,reject%20a%20true%20null%20hypothesis.
+
+https://en.wikipedia.org/wiki/Effect_size#:~:text=Sample%2Dbased%20effect%20sizes%20are,could%20be%20due%20to%20chance.
+
+https://www.colorado.edu/ibg/sites/default/files/attached-files/boulder_power_2022.pdf
+
+https://online.stat.psu.edu/stat200/lesson/6/6.5#:~:text=The%20probability%20of%20rejecting%20the,fixed%2C%20then%20decreasing%20will%20increase%20.
+
+https://people.umass.edu/bwdillon/files/linguist-609-2020/Notes/PowerReliability.html#:~:text=All%20other%20things%20being%20equal,we%20are%20to%20detect%20it.
+
+https://www.graphpad.com/guides/prism/latest/statistics/stat_sample_size_for_which_values_o.htm
+
+https://www.bmj.com/content/349/bmj.g4287/rr#:~:text=As%20the%20sample%20size%20increases,hypothesis)%20remains%20alpha%20by%20definition.
+
+
