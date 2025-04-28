@@ -1,0 +1,96 @@
+PII Detection : 
+Purpose : 
+
+To evaluate occurrences of PII being transmitted via user queries, LLM Responses, and data used in LLM context or fine-tuning.
+
+Coherence check :
+Purpose :
+
+This helps us assess whether the LLM response is fluent/coherent/readable so that it can be understood by a human.
+
+
+Groundedness check :
+Purpose :
+
+This helps us assess any hallucinations/ out of context responses by the LLM to determine the level of cognitive functioning..
+
+
+Context relevance :
+Purpose :
+
+This helps us assess whether the retrieved context is relevant to the user query.
+
+Toxicity check : 
+Purpose :
+
+This process evaluates for any toxic elements present in user query, context data utilized within the LLM framework, and the LLM-generated responses. 
+
+Factuality check :
+Purpose :
+
+This check helps us assess whether LLMs generated contents conflict with objective facts.
+
+Prompt Bias and Stereotype check :
+Purpose :
+
+This assessment assists us in verifying the ultimate system prompt in comparison to other similar system prompt options, based on the level of bias and stereotype risk mitigation it offers in the model’s output when presented with similar user queries.
+
+
+Adversarial check :
+Purpose :
+
+This helps us assess the predictability of the LLM response when faced with out of bound questions.
+
+Sentiment check:
+Purpose:
+
+This helps us assess the sentiment of the user query, LLM responses and determine whether they are positive or not.
+
+
+Robustness check:
+Purpose:
+
+This helps us assess the robustness of LLM response when faced with grammatical/typographical variations of the same user query.
+
+
+Answer Relevance check:
+Purpose: 
+
+This helps us determine the relevance of the LLM's response to the user query.
+
+Language Match:
+Purpose: 
+
+This helps us assess whether the language of a user query matches that of an LLM response, as responses in a language different from the user query may inadvertently cause frustration or confusion and be unhelpful for the end user.
+
+Summarization Quality Check:
+Purpose:
+
+This helps us assess whether the LLM-generated content contains inaccurate information or has conflicts with the article provided for summary generation.
+
+System Prompt Stability check:
+Purpose: 
+
+This assessment helps us verify the final system prompt by comparing it with other similar options, based on the consistency it provides in the model's output for similar user queries.
+
+Conciseness check:
+Purpose:
+
+This helps us assess whether the LLM response is delivered in a clear and brief manner without including unrelated information.
+
+
+
+Inter Annotator Agreement:
+Purpose: 
+
+This helps us evaluate observer bias or labelling bias among annotators in the data provided to them.
+
+Recency Check:
+Purpose: 
+
+This helps us assess the usage of recent data as context for LLM responses.
+
+Information Loss in Document Conversion:
+Purpose:
+
+This helps us assess the information loss when converting knowledge base data from its original format to raw string format before sending it to an embedding API or model
