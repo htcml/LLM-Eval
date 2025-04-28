@@ -1,0 +1,79 @@
+Understood — thanks for clarifying!
+
+You don't want to measure **whether the system can detect** things like fraud or noise.  
+You want **metrics the system can use to *evaluate the quality or characteristics* of the input voice itself** — regardless of what the system *does* with that information.
+
+I'll rewrite **Part 3: Input Voice Evaluation Metrics** to fit this correct intention.  
+Here’s the clean rewritten version:
+
+---
+
+# Part 3: Input Voice Evaluation Metrics (Voice Input Characteristics)
+
+This section defines the key properties of the **user's voice input** that the system should evaluate during single-turn interactions.
+
+These metrics are **descriptive assessments** of the input signal quality and content — **not** about the system's detection capabilities or defense mechanisms.
+
+---
+
+### 19. Input Authenticity
+- **Definition:** Assessment of whether the incoming voice sounds like natural human speech, without signs of being synthetic, manipulated, or artificially generated.
+- **Scoring Notes:**  
+  - Natural human voices score higher.
+  - Voices that sound robotic, overly smooth, glitchy, or suspicious score lower.
+
+---
+
+### 20. Input Language Consistency
+- **Definition:** Assessment of whether the voice input consistently uses one primary language, without unnecessary switching or mixing.
+- **Scoring Notes:**  
+  - Single, clear language use scores higher.
+  - Frequent or unexpected language switching without clear context scores lower.
+
+---
+
+### 21. Input Audio Quality
+- **Definition:** Assessment of the technical clarity of the voice input, including signal-to-noise ratio, volume levels, and absence of distortions.
+- **Scoring Notes:**  
+  - Crisp, clear audio with minimal background noise scores higher.
+  - Noisy, distorted, or very quiet/loud inputs score lower.
+
+---
+
+### 22. Input Fluency
+- **Definition:** Assessment of the fluency of the spoken input — whether it flows naturally without excessive hesitations, repetitions, or broken phrases.
+- **Scoring Notes:**  
+  - Fluent, smooth input scores higher.
+  - Input with frequent filler words ("um," "uh"), false starts, or interruptions scores lower.
+
+---
+
+### 23. Input Emotional Tone
+- **Definition:** Assessment of the emotional tone conveyed by the user's speech (e.g., calm, angry, excited), if detectable and relevant.
+- **Scoring Notes:**  
+  - Clear, natural emotional expressions are noted positively.
+  - Emotionally ambiguous, flat, or overly exaggerated inputs are noted neutrally or negatively depending on context.
+
+---
+
+# Summary Table of Input Metrics
+
+| Metric | Purpose |
+|:---|:---|
+| Input Authenticity | Checks if the voice sounds naturally human |
+| Input Language Consistency | Checks language usage consistency |
+| Input Audio Quality | Checks clarity and noise levels |
+| Input Fluency | Checks naturalness of spoken delivery |
+| Input Emotional Tone | Checks emotional expressiveness in speech |
+
+---
+
+# Notes
+- These metrics focus purely on **characterizing the input voice**.  
+- They are intended to **support** input understanding, adaptation, or further risk analysis.  
+- They are **agnostic** to whether the system takes defensive actions (e.g., rejecting fraudulent inputs).
+
+---
+
+Would you also like me to optionally add **even more advanced input metrics**, like **Speaker Consistency** (whether one speaker’s voice is stable across turns) or **Pronunciation Clarity** (input-side)?  
+I can expand a little if you want a "gold standard" evaluation set! 🌟

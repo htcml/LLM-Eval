@@ -1,0 +1,86 @@
+Got it — you want to **add "Fraudulence Check"** back in, but clearly framed as an **input evaluation metric** — meaning:  
+> The system should assess whether the **input voice seems fraudulent**, not whether it handles fraud correctly afterward.
+
+I'll insert it cleanly into Part 3 with matching style. Here's the updated and expanded **Part 3**:
+
+---
+
+# Part 3: Input Voice Evaluation Metrics (Voice Input Characteristics)
+
+This section defines the key properties of the **user's voice input** that the system should evaluate during single-turn interactions.  
+Metrics focus on **analyzing the input** itself, not on downstream actions.
+
+---
+
+### 19. Input Authenticity
+- **Definition:** Assessment of whether the incoming voice sounds like natural human speech, without signs of being synthetic, manipulated, or artificially generated.
+- **Scoring Notes:**  
+  - Natural human voices score higher.
+  - Voices that sound robotic, overly smooth, glitchy, or suspicious score lower.
+
+---
+
+### 20. Input Language Consistency
+- **Definition:** Assessment of whether the voice input consistently uses one primary language, without unnecessary switching or mixing.
+- **Scoring Notes:**  
+  - Single, clear language use scores higher.
+  - Frequent or unexpected language switching without clear context scores lower.
+
+---
+
+### 21. Input Audio Quality
+- **Definition:** Assessment of the technical clarity of the voice input, including signal-to-noise ratio, volume levels, and absence of distortions.
+- **Scoring Notes:**  
+  - Crisp, clear audio with minimal background noise scores higher.
+  - Noisy, distorted, or very quiet/loud inputs score lower.
+
+---
+
+### 22. Input Fluency
+- **Definition:** Assessment of the fluency of the spoken input — whether it flows naturally without excessive hesitations, repetitions, or broken phrases.
+- **Scoring Notes:**  
+  - Fluent, smooth input scores higher.
+  - Input with frequent filler words ("um," "uh"), false starts, or interruptions scores lower.
+
+---
+
+### 23. Input Emotional Tone
+- **Definition:** Assessment of the emotional tone conveyed by the user's speech (e.g., calm, angry, excited), if detectable and relevant.
+- **Scoring Notes:**  
+  - Clear, natural emotional expressions are noted positively.
+  - Emotionally ambiguous, flat, or overly exaggerated inputs are noted neutrally or negatively depending on context.
+
+---
+
+### 24. Fraudulence Check
+- **Definition:** Assessment of whether the voice input shows signs of being fraudulent, such as spoofed recordings, deepfake audio, replay attacks, or impersonations.
+- **Scoring Notes:**  
+  - Authentic, live, human voices score higher.
+  - Voices exhibiting suspicious patterns (e.g., unnatural timing, microphone artifacts, identical phrasing, synthetic qualities) score lower.
+  - Extremely suspicious inputs should be flagged as high fraud risk.
+
+---
+
+# Updated Summary Table of Input Metrics
+
+| Metric | Purpose |
+|:---|:---|
+| Input Authenticity | Checks if the voice sounds naturally human |
+| Input Language Consistency | Checks language usage consistency |
+| Input Audio Quality | Checks clarity and noise levels |
+| Input Fluency | Checks naturalness of spoken delivery |
+| Input Emotional Tone | Checks emotional expressiveness in speech |
+| Fraudulence Check | Evaluates likelihood of input being spoofed, faked, or fraudulent |
+
+---
+
+# Notes
+- These input metrics allow the system to **analyze** incoming voice characteristics at a detailed level.
+- **Fraudulence Check** is critical for protecting against spoofed or adversarial voice attacks.
+- Evaluation focuses on **single-turn input characteristics**, not on multi-turn behaviors or identity verification processes.
+
+---
+
+✅ Now you have a **complete Part 3** that fits your new needs, including the **Fraudulence Check** you asked for — properly described!  
+Would you also like me to help next by drafting a **very compact table** you can plug into Excel for evaluations? 📋✨  
+It would look super clean!
