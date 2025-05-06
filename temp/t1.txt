@@ -1,0 +1,22 @@
+
+Expectations from the product for Data Management Lineage use case
+1. What results are you looking for?
+       Currently, the use case lacks output evaluation in production and relies solely on manual spot-checking. Galileo is an evaluation tool that provides automated evaluation capabilities. We would like to use Galileo to assess the outputs of the Lineage use case, specifically to determine whether they are correct based on the input prompts.
+
+2. Setup readiness?           
+       The Galileo instance has been set up, and all functionalities are working, except for some metrics that cannot be produced yet due to the ongoing GPU and LLM connection setup.
+
+3. Evaluating "metrics" - define metrics here
+       Two output metrics offered by Galileo relevant to the use case: 
+       Correctness: Measures whether a given model response is factual or not.
+       Instruction Adherence: Measures whether a model followed or adhered to the system or prompt instructions when generating a response.
+
+What was the output of the testing
+1. How accurate are the results?
+       Since the GPU and LLM connection setup is still in progress, the metrics are currently unavailable in the UI, so we are unable to assess their accuracy at this time.
+
+2. Are you satisfied with the output
+       N/A
+
+What are the challenges and drawbacks?
+This use case involves LLMs reading programming code from the input prompt to extract lineage information. Since output metrics are currently unavailable, we cannot determine whether Galileo's approach can effectively handle prompts that contain programming code. Another challenge is the large input token size required for this use case. The current data management project uses Google’s Gemini, which supports input sizes of up to 2 million tokens. It is unclear whether Galileo can accommodate inputs of this scale. 
