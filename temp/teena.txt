@@ -1,0 +1,11 @@
+* Expectations from the product for this usecase
+    * 		What results are you looking for?
+    * 		Setup readiness?
+    * 		Evaluating "metrics" - define metrics here
+* 		What was the output of the testing
+    * 		How accurate are the results?
+    * 		Are you satisfied with the output
+* 		What are the challenges and drawbacks?
+    * 		Something you did not expect or did not know about
+    * 		Any difficulty in setting up or getting the output
+* 		Final review of the testing - overall
